@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haikyuu</title>
+</head>
+<style>
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(151, 168, 203, 0.594);
+        border-radius: 100vw;
+        margin: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(64, 61, 16, 0.737);
+        border-radius: 100vw;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(44, 42, 9, 0.87);
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(747196.png);
+        background-repeat: no-repeat;
+        /* height: 778px; */
+        height: 1400px;
+        overflow: overlay;
+        width: 1280px;
+    }
+
+    .left {
+        display: inline-block;
+        position: fixed;
+        width: 113px;
+        height: 12px;
+        left: 34px;
+        top: 0px;
+        font-weight: bold;
+        border: none;
+        margin: 17px auto;
+        padding: 12px 17px;
+        background-image: url(1666761128326.png);
+    }
+
+    .mid {
+        display: inline-block;
+        top: 0px;
+        position: fixed;
+        left: 460px;
+        width: 50%;
+        margin: 12px auto;
+        border: 1px solid rgb(95, 6, 6, 0.568);
+        border-radius: 30px;
+        background-color: rgba(255, 255, 254, 0.664);
+    }
+
+    .right {
+        position: fixed;
+        right: 16px;
+        top: 0px;
+        font-weight: bold;
+        border: 1px solid rgb(95, 6, 6, 0.568);
+        border-radius: 30px;
+        background-color: rgba(255, 255, 254, 0.664);
+        margin: 12px auto;
+        height: 50px;
+        width: 11%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: black;
+        padding: 12px 19px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(95, 6, 6, 0.568);
+    }
+
+    .item input {
+        margin-left: 10px;
+        padding-top: 10px;
+        padding: 10px;
+        width: 77px;
+        color: rgb(95, 6, 6);
+        background-color: rgba(95, 6, 6, 0.082);
+        border: none;
+        border-radius: 150px;
+    }
+
+    .item img {
+        width: 30px;
+        filter: opacity(80%);
+    }
+
+    .about_us {
+        margin-top: 800px;
+        text-align: center;
+        background-color: rgba(160, 160, 70, 0.783);
+        display: inline-block;
+    }
+
+    .about_us h2 {
+        padding: 35px;
+        position: relative;
+        margin: 10px 0px;
+        display: inline-block;
+    }
+
+    .about_us p {
+        position: relative;
+        margin: 0px 150px 50px 150px;
+        font-size: x-large;
+        display: inline-block;
+    }
+
+    .container {
+        display: flex;
+        background-color: rgba(124, 12, 12, 0.833);
+        padding: 25px 0px;
+    }
+
+    .boxes {
+        background-color: rgba(230, 250, 164, 0.322);
+        font-size: 1.05rem;
+        text-align: center;
+        margin: 20px;
+        padding: 75px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="file:///C:/Users/zohaf/OneDrive/Desktop/code/Karasuno.html">Karasuno</a></li>
+                <li><a href="#">Nekoma</a></li>
+                <li><a href="#">Shiratorizawa</a></li>
+                <li><a href="#">Aoba Josai</a></li>
+                <li><a href="#">Fukurodani</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="item" id="item1"><input type="text" name="search" id="search" placeholder=" search here"></div>
+            <div class="item" id="item2"><img src="1666763376828.png" alt=""></div>
+        </div>
+    </header>
+    <div class="about_us">
+        <h2>ABOUT US</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil dolorem tempora laudantium porro
+            quas dicta esse ducimus, nesciunt reiciendis deserunt iure, doloribus vero asperiores, commodi ullam
+            iusto ex ipsa soluta eveniet vel cum? Doloribus laudantium ullam iusto mollitia sapiente neque
+            voluptatibus, ab assumenda blanditiis, molestias quod. Cumque laboriosam consectetur enim beatae
+            aspernatur deleniti exercitationem ea ex saepe? Optio, beatae earum numquam sint ipsam fugiat eaque
+            delectus architecto cum eum quaerat veritatis aliquid nemo saepe maiores quod, quibusdam deserunt
+            voluptates dolorem impedit praesentium nam quidem
+        </p>
+    </div>
+    <div class="container">
+        <div class="boxes" id="boxes1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae magni
+            obcaecati quas illum? Alias, recusandae. Atque obcaecati accusamus vel, suscipit autem dolor tempora
+            voluptates
+        </div>
+        <div class="boxes" id="boxes2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae magni
+            obcaecati quas illum? Alias, recusandae. Atque obcaecati accusamus vel, suscipit autem dolor tempora
+            voluptates
+        </div>
+        <div class="boxes" id="boxes3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae magni
+            obcaecati quas illum? Alias, recusandae. Atque obcaecati accusamus vel, suscipit autem dolor tempora
+            voluptates
+        </div>
+    </div>
+</body>
+
+</html>
